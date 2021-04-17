@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     //The UI doesn't need to follow an architecture pattern, because the app is very simple
     //String file is not needed because translations will not be used
     //Conformity will be a comparison of the difference between the percent the numbers should show up as to perfectly align with benford's law and what the actual percent is
-    //-- We will allow within 10% accuracy
+    //-- We will allow within 90% accuracy
     //-- Small data sets will never be able to conform
     //-- Large data sets will be able to conform, however conforming only means that the number distribution looks similar. It will not actually be accurate statistically for conformity.
     private val benfordCalculator = BenfordCalculator()
